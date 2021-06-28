@@ -44,3 +44,18 @@ def get_single_owner(id):
             requested_owner = owner
 
     return requested_owner
+def create_owner(owner):
+    # Get the id value of the last owner in the list
+    max_id = OWNERS[-1]["id"]
+
+    # Add 1 to whatever that number is
+    new_id = max_id + 1
+
+    # Add an `id` property to the owner dictionary
+    owner["id"] = new_id
+
+    # Add the owner dictionary to the list
+    OWNERS.append(owner)
+
+    # Return the dictionary with `id` property added
+    return owner
