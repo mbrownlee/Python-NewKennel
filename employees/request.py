@@ -3,25 +3,25 @@ EMPLOYEES = [
       "id": 1,
       "name": "Buffy",
       "specialty": "Teaching to heel",
-      "employeeId": 3
+      "locationId": 3
     },
     {
       "id": 2,
       "name": "Muffy",
       "specialty": "Trimming nails",
-      "employeeId": 3
+      "locationId": 3
     },
     {
       "id": 3,
       "name": "Clyde",
       "specialty": "Reading pet auras",
-      "employeeId": 2
+      "locationId": 2
     },
     {
       "id": 4,
       "name": "Sky",
       "specialty": "Coaxing out shy ones",
-      "employeeId": 1
+      "locationId": 1
     }
   ]
 
